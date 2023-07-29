@@ -1,3 +1,4 @@
+#binary search algorithm
 def BinarySearch(l, search, low=0, high=None):
     if high < low: # to check if the value to be searched exists
         return -1
